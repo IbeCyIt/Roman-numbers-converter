@@ -50,7 +50,7 @@ Resources:
          cd /home/ec2-user
          mkdir roman-numbers-converter
          cd roman-numbers-converter
-         git clone https://github.com/IbeCyIt/Roman-numbers-converter.git
+         git clone https://github.com/XXXXXXXXXXXXXXXXXXXX
          cd Roman-numbers-converter
          python3 app.py
   # https://docs.aws.amazon.com/ja_jp/AWSCloudFormation/latest/UserGuide/aws-properties-route53-recordset.html
