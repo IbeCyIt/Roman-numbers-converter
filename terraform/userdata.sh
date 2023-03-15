@@ -6,6 +6,6 @@ yum install git -y
 cd /home/ec2-user
 mkdir roman-numbers-converter
 cd roman-numbers-converter
-git clone https://github.com/XXXXXXXXXXXXXXXXXX.git
+git clone https://github.com/KLgibran/Roman-numbers-converter.git
 cd Roman-numbers-converter
 python3 app.py
