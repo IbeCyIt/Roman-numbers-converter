@@ -22,9 +22,9 @@ resource "aws_instance" "web" {
   }
 }
  output "my-Output" {
-    value = "aws_route53_record"
+    value = aws_route53_record.www.arn
  }
 
  output "myOutput" {
-    value = "aws_instance.web.public_ip"
+    value = aws_instance.web.public_ip
  }
